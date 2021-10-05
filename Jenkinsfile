@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh './gradlew clean check --no-daemon'
+        sh "echo 'Hello World'"
       }
     }
     stage('cat README') {
